@@ -1,0 +1,19 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.7.10'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.7.10'
+
+    id 'net.mamoe.mirai-console' version '2.14.0'
+}
+
+group = 'cn.ChengZhiYa'
+version = '0.0.1'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.aliyun.com/repository/public'}
+}
+
+dependencies {
+    implementation "com.alibaba:fastjson:2.0.28"
+    implementation "com.github.oshi:oshi-core:6.4.0"
+}
